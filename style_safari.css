@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+.ficha
+{
+	position:absolute;
+	width:800px;
+	height:1010px;
+	bborder:1px red solid;
+}
+
+.topo
+{
+	margin-left:50px;
+	width:700px;
+	height:100px;
+	background:url(imgs/topo.png) no-repeat;
+}
+
+.cabecalho
+{
+	width:700px;
+	height:80px;
+	margin-left:50px;
+}
+
+label
+{ 
+	float:left;
+	margin-left:10px;
+}
+
+.cabecalho label input
+{
+	font-size:12px;
+}
+
+span
+{
+	display: block;
+	float:left;
+	width:15px;
+	height:14px;
+	cursor: pointer;
+}
+
+.black
+{ background:url(imgs/black.png) no-repeat;}
+
+.white
+{ background:url(imgs/white.png) no-repeat;}
+
+.left
+{
+	float:left;
+	width:233px;
+	height:820px;
+	position:absolute;
+	margin-left:50px;
+}
+
+.middle
+{
+	float:left;
+	width:234px;
+	height:820px;
+	position:absolute;
+	margin-left:283px;
+}
+
+.right
+{
+	float:left;
+	width:233px;
+	height:820px;
+	position:absolute;
+	margin-left:515px;
+	margin-top:1px;
+}
+
+.label1,.label2,.label3,
+.label4,.label5,.label6,
+.label7,.label8,.label9,
+.label10,.label11,.label12
+{
+	width:233px;
+	height:37px;
+	margin-bottom:10px;
+}
+.label1{ background:url(imgs/label1.png) no-repeat;}
+.label2{ background:url(imgs/label2.png) no-repeat;}
+.label3{ background:url(imgs/label3.png) no-repeat;margin-bottom:9px;}
+.label4{ background:url(imgs/label4.png) no-repeat;margin-top:30px;}
+.label5{ background:url(imgs/label5.png) no-repeat;margin-top:30px;}
+.label6{ background:url(imgs/label6.png) no-repeat;margin-bottom:9px;margin-top:30px;margin-top:30px\9;}
+.label7{ background:url(imgs/label7.png) no-repeat;margin-top:30px;}
+.label8{ background:url(imgs/label8.png) no-repeat;margin-top:30px;}
+.label9{ background:url(imgs/label9.png) no-repeat;margin-bottom:9px;margin-top:29px;margin-top:29px\9;}
+.label10{ background:url(imgs/label10.png) no-repeat;margin-top:20px;}
+.label11{ background:url(imgs/label11.png) no-repeat;margin-top:10px;}
+.label12{ background:url(imgs/label12.png) no-repeat;margin-top:112px;margin-top:105px\9;}
+
+
+.antecedentes,
+.qualidades
+{float:left;margin-left:11px;font-size:12px;height:15px;}
+.antecedente,
+qualidade
+{ height:4px;}
+
+.disciplinas
+{float:left;margin-left:10px;font-size:12px;height:15px;}
+.disciplina
+{ height:5px;}
+
+.vitalidade
+{
+	width:233px;
+	height:215px;
+	background:url(imgs/vitalidade.png) no-repeat;
+	margin-top:-23px;
+}
+
+.forca_de_vontade
+{
+	width:233px;
+	height:20px;
+	background:url(imgs/forca_de_vontade.png) no-repeat;
+	margin-top:50px;
+}
+
+.trilha,
+.will
+{float:left;margin-left:10px;font-size:12px;height:15px;margin-top:-10px;}
+
+.will2
+{ float:left;margin-left:5px;font-size:12px;height:15px;margin-top:15px;}
+
+.trilha span.white,
+.will span.white
+{ margin-left:6px;margin-top:20px;}
+
+.quadrado
+{ 
+	display: block;
+	float:left;
+	width:18px;
+	height:18px;
+	background:url(imgs/quadrado.png) no-repeat;
+	margin-left:4px;
+	margin-top:10px;
+	cursor:default;
+}
+
+.sangue
+{
+	width:234px;
+	height:65px;
+	background:url(imgs/sangue.png) no-repeat;
+	margin-top:70px;
+}

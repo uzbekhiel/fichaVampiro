@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+.ficha
+{
+	position:absolute;
+	width:800px;
+	height:1010px;
+	bborder:1px red solid;
+	top: 1px;
+	left: 6px;
+}
+
+.topo
+{
+	margin-left:50px;
+	width:700px;
+	height:100px;
+	background:url(imgs/topo.png) no-repeat;
+}
+
+.cabecalho
+{
+	width:700px;
+	height:80px;
+	margin-left:50px;
+}
+
+label
+{ 
+	float:left;
+	margin-left:10px;
+}
+
+.cabecalho label input
+{
+	font-size:12px;
+}
+
+span
+{
+	display: block;
+	float:left;
+	width:15px;
+	height:14px;
+	cursor: pointer;
+}
+
+.black
+{ background:url(imgs/black.png) no-repeat;}
+
+.white
+{ background:url(imgs/white.png) no-repeat;}
+
+.left
+{
+	float:left;
+	width:233px;
+	height:820px;
+	position:absolute;
+	margin-left:50px;
+}
+
+.middle
+{
+	float:left;
+	width:234px;
+	height:820px;
+	position:absolute;
+	margin-left:283px;
+}
+
+.right
+{
+	float:left;
+	width:233px;
+	height:820px;
+	position:absolute;
+	margin-left:515px;
+	margin-top:1px;
+}
+
+.label_attr
+{
+	width:700px;
+	height:44px;
+	background:url(imgs/label_a.png) no-repeat;
+}
+
+.atributos1{ margin-top:9px;}
+.atributos2,.atributos3{ margin-top:50px;}
+
+.label_hab
+{
+	width:700px;
+	height:44px;
+	background:url(imgs/label_h.png) no-repeat;
+	margin-top:20px;
+}
+
+.habilidades1{ margin-top:10px;}
+.habilidades2,.habilidades3{ margin-top:70px;}
+
+.label_vant
+{
+	width:700px;
+	height:44px;
+	background:url(imgs/label_v.png) no-repeat;
+	margin-top:20px;
+}
+
+.vantagens1{ margin-top:8px;}
+.vantagens2,.vantagens3{ margin-top:75px;}
+
+.bar
+{
+	width:700px;
+	height:44px;
+	background:url(imgs/bar.png) no-repeat;
+	margin-top:10px;
+}
+
+.label_q
+{
+	width:233px;
+	height:22px;
+	background:url(imgs/label_q.png) no-repeat;
+	margin-top:-15px;
+}
+
+.qualidades1{ margin-top:8px;}
+.qualidades2{ margin-top:75px;}
+.qualidades3{ margin-top:150px;}
+
+.antecedentes,
+.qualidades
+{float:left;margin-left:11px;font-size:12px;height:15px;}
+.antecedente,
+.qualidade
+{ height:4px;}
+
+.disciplinas
+{float:left;margin-left:10px;font-size:12px;height:15px;}
+.disciplina
+{ height:4px;}
+
+.vitalidade
+{
+	width:233px;
+	height:215px;
+	background:url(imgs/vitalidade.png) no-repeat;
+	margin-top:-23px;
+}
+
+.trilha{float:left;margin-left:10px;font-size:12px;height:15px;margin-top:-15px;}
+.trilha span.white{ margin-left:6px;margin-top:10px;}
+
+.forca_de_vontade
+{
+	width:233px;
+	height:20px;
+	position:absolute;
+	background:url(imgs/forca_de_vontade.png) no-repeat;
+	margin-top:30px;
+	bborder:1px solid red;
+}
+
+.will{float:left;margin-left:10px;font-size:12px;height:15px;margin-top:30px;}
+
+.will2
+{ float:left;margin-left:5px;font-size:12px;height:15px;margin-top:15px;}
+
+.will span.white
+{ margin-left:6px;margin-top:20px;}
+
+.quadrado
+{ 
+	display: block;
+	float:left;
+	width:18px;
+	height:18px;
+	background:url(imgs/quadrado.png) no-repeat;
+	margin-left:4px;
+	margin-top:10px;
+	cursor:default;
+}
+
+.sangue
+{
+	width:234px;
+	height:65px;
+	background:url(imgs/sangue.png) no-repeat;
+	margin-top:120px;
+	position:absolute;
+}
